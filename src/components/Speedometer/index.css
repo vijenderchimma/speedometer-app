@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.container {
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  min-height: 100vh;
+}
+.main-heading {
+  color: #ffffff;
+  font-size: 30px;
+}
+.description {
+  color: #cbd5e1;
+  font-size: 15px;
+}
+.heading {
+  color: #ffffff;
+  font-size: 40px;
+}
+.span {
+  color: #ffffff;
+  font-size: 30px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.increment {
+  color: #ffffff;
+  background-color: #0b69ff;
+  outline: none;
+  border-style: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 30px;
+  margin-right: 20px;
+}
+.decrement {
+  color: #94a3b8;
+  background-color: transparent;
+  outline-color: #94a3b8;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.image {
+  width: 250px;
+  height: 150px;
+}
